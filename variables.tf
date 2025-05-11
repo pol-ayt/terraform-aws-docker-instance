@@ -1,10 +1,11 @@
 variable "instance_type" {
   type = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "key_name" {
   type = string
+  description = "Write your pem key without .pem"
 }
 
 variable "num_of_instance" {
