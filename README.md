@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "pol-ayt/docker-instance/aws"
-    key_name = "mykey"
+    key_name = "mykey" # without .pem extension
 }
 ```
